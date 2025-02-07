@@ -17,8 +17,7 @@ function certWorst() {
 }
 
 function printCert() {
-    let openWindow=window.open(``, `title`, `attributes`);
-    openWindow.document.write
+    window.print();
 }
 
 function recipientName() {

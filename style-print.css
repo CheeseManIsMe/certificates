@@ -1,0 +1,142 @@
+.customization {
+    display: none;
+}
+
+
+/* Worst Gambler Certificate */
+.certificateW {
+    height: 100vh;
+    background: url(/images/the-worst.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 75%;
+}
+
+.certificateW #recipientNameTxt {
+    top: 37%;
+    position: relative;
+    left: 23.5%;
+    font-size: 600%;
+    color: #efce69;
+    font-family:swirl;
+    text-align: center;
+    max-width: 50%;
+    max-height: 100px;
+    
+}
+
+.certificateW #awarderNameTxt {
+    font-family: sans-serif;
+    color: white;
+    top: 44.4%;
+    position: relative;
+    font-size: 150%;
+    left: 21%;
+    max-width: 15%;
+    text-align: center;
+}
+
+.certificateW #dateTxt {
+    font-family: sans-serif;
+    color: white;
+    top: 39.4%;
+    position: relative;
+    left: 36.4%;
+    font-size: 150%;
+    text-align: center;
+
+    max-width: 10%;
+}
+
+/* Goblin Certificate */
+.certificateG {
+    height: 100vh;
+    background: url(/images/the-goblin.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 75%;
+} 
+
+.certificateG #recipientNameTxt {
+    top: 36%;
+    position: relative;
+    left: 23.5%;
+    font-size: 600%;
+    color: #729d6b;
+    font-family:swirl;
+    text-align: center;
+    max-width: 50%;
+    max-height: 100px;
+    
+}
+
+.certificateG #awarderNameTxt {
+    font-family: sans-serif;
+    color: black;
+    top: 45%;
+    position: relative;
+    font-size: 150%;
+    left: 32.7%;
+    max-width: 15%;
+    text-align: center;
+}
+
+.certificateG #dateTxt {
+    font-family: sans-serif;
+    color: black;
+    top: 39.9%;
+    position: relative;
+    left: 55%;
+    font-size: 150%;
+    text-align: center;
+
+    max-width: 10%;
+}
+
+/* The Restless Certificate */
+ .certificateR {
+    height: 100vh;
+    background: url(/images/the-restless.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 75%;
+}
+
+.certificateR #recipientNameTxt {
+    top: 36%;
+    position: relative;
+    left: 23.5%;
+    font-size: 600%;
+    color: #ff5757;
+    font-family:swirl;
+    text-align: center;
+    max-width: 50%;
+    max-height: 100px;
+    
+}
+
+.certificateR #awarderNameTxt {
+    font-family: sans-serif;
+    color: white;
+    top: 45.2%;
+    position: relative;
+    font-size: 150%;
+    left: 20%;
+    max-width: 15%;
+    text-align: center;
+}
+
+.certificateR #dateTxt {
+    font-family: sans-serif;
+    color: white;
+    top: 40.1%;
+    position: relative;
+    left: 40%;
+    font-size: 150%;
+    text-align: center;
+
+    max-width: 10%;
+}

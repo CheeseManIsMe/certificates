@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-screen.css " media="all">
+    <link rel="stylesheet" href="style-print.css" media="print">
     <script src="script.js"></script>
     <title>Document</title>
 </head>
@@ -11,11 +12,13 @@
     <div class="customization">
         <h1>Create A Certificate!</h1>
         <h3>Recipient's Name</h3>
-        <input type="text" onchange="recipientName()" placeholder="Insert name here" id="rNameInput">
+        <input type="text" onchange="recipientName()" placeholder="Insert name here" id="rNameInput" maxlength="25">
+        <p>25 characters or less</p>
         <h3>Awarder's Name</h3>
-        <input type="text" onchange="awarderName()" placeholder="Insert name here" id="aNameInput">
+        <input type="text" onchange="awarderName()" placeholder="Insert name here" id="aNameInput" maxlength="25">
+        <p>25 characters or less</p>
         <h3>Date Awarded</h3>
-        <input type="text" onchange="dateChange()" placeholder="mm/dd/yyyy" id="dateInput">
+        <input type="text" onchange="dateChange()" placeholder="mm/dd/yyyy" id="dateInput" maxlength="10">
         <h3>Certificate Type</h3>
         <div class="dropdown">
             <button class="dropbtn">Certificates</button>
@@ -26,7 +29,7 @@
             </div>
         </div>
         <h3>Finalize</h3>
-        <button>Print</button>
+        <button onclick="printCert()">Print</button>
     </div>
 
     <div id="certificate" class="certificateW">
