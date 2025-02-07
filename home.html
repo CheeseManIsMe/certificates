@@ -4,30 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    
+    <script src="script.js"></script>
     <title>Document</title>
 </head>
 <body>
     <div class="customization">
         <h1>Create A Certificate!</h1>
         <h3>Recipient's Name</h3>
-        <input type="text" placeholder="Insert name here">
+        <input type="text" onchange="recipientName()" placeholder="Insert name here" id="rNameInput">
         <h3>Awarder's Name</h3>
-        <input type="text" placeholder="Insert name here">
+        <input type="text" onchange="awarderName()" placeholder="Insert name here" id="aNameInput">
         <h3>Date Awarded</h3>
-        <input type="date" placeholder="mm/dd/yyyy">
+        <input type="text" onchange="dateChange()" placeholder="mm/dd/yyyy" id="dateInput">
         <h3>Certificate Type</h3>
         <div class="dropdown">
             <button class="dropbtn">Certificates</button>
             <div class="dropdown-content">
-                <button>Goblin Certificate</button>
-                <button>Best Gambler</button>
-                <button>Worst Gambler</button>
+                <button onclick="certGoblin()" id="goblinBtn">Goblin Certificate</button>
+                <button onclick="certGamble()" id="bestBtn">Best Gambler</button>
+                <button onclick="certWorst()" id="worstBtn">Worst Gambler</button>
             </div>
         </div>
+        <h3>Finalize</h3>
+        <button>Print</button>
     </div>
 
-    <div class="certificate">
+    <div id="certificate" class="certificateR">
+        <p id="recipientNameTxt">Recipient's Name Here!</p>
+        <p id="awarderNameTxt">Awarder's Name Here!</p>
+        <p id="dateTxt">xx/xx/xxxx</p>
+
         
     </div>
    

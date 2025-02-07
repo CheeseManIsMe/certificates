@@ -7,7 +7,7 @@ body {
     margin: 0;
 }
 
-.certificate {
+#certificate {
     min-width: 75%;
 }
 
@@ -18,17 +18,47 @@ body {
     border: black solid 2px;
 }
 
-/* Certificate Styling */
 
-.certificate {
-    height: 100vh;
+/* Worst Gambler Certificate */
+.certificateW {
+    height: 98.4vh;
     background: url(/images/the-worst.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    min-width: 75%;
 }
 
+.certificateW #recipientNameTxt {
+    top: 36.5vh;
+    position: relative;
+    left: 18.5vw;
+    font-size: 100px;
+    color:rgb(247, 165, 57);
+    font-family:swirl;
+    text-align: center;
+    max-width: 800px;
+}
 
+/* Goblin Certificate */
+.certificateG {
+    height: 98.4vh;
+    background: url(/images/the-goblin.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 75%;
+} 
+
+/* The Restless Certificate */
+ .certificateR {
+    height: 98.4vh;
+    background: url(/images/the-restless.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 75%;
+}
 
 
 /* Dropdown Styling */
@@ -68,4 +98,11 @@ body {
 
 .dropdown-content button {
     min-width: 160px;
+}
+
+
+
+@font-face {
+    font-family: swirl;
+    src: url(/fonts/BrotherSignature-7BWnK.otf);
 }
