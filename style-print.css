@@ -2,6 +2,12 @@
     display: none;
 }
 
+@page {
+    margin: 0cm;
+}
+
+
+
 
 /* Worst Gambler Certificate */
 .certificateW {
