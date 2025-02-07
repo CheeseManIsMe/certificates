@@ -8,12 +8,13 @@ body {
 }
 
 #certificate {
-    min-width: 75%;
+    min-width: 1308px;
+    
 }
 
 .customization {
     min-width: 25%;
-    margin-left: 15px;
+    margin: 15px;
     padding: 5px;
     border: black solid 2px;
 }
@@ -30,14 +31,39 @@ body {
 }
 
 .certificateW #recipientNameTxt {
-    top: 36.5vh;
+    top: 37%;
     position: relative;
-    left: 18.5vw;
-    font-size: 100px;
-    color:rgb(247, 165, 57);
+    left: 23.5%;
+    font-size: 600%;
+    color: #efce69;
     font-family:swirl;
     text-align: center;
-    max-width: 800px;
+    max-width: 50%;
+    max-height: 100px;
+    
+}
+
+.certificateW #awarderNameTxt {
+    font-family: sans-serif;
+    color: white;
+    top: 44%;
+    position: relative;
+    font-size: 150%;
+    left: 21%;
+    max-width: 15%;
+    text-align: center;
+}
+
+.certificateW #dateTxt {
+    font-family: sans-serif;
+    color: white;
+    top: 38.9%;
+    position: relative;
+    left: 36.4%;
+    font-size: 150%;
+    text-align: center;
+
+    max-width: 10%;
 }
 
 /* Goblin Certificate */
@@ -49,6 +75,42 @@ body {
     background-position: center;
     min-width: 75%;
 } 
+
+.certificateG #recipientNameTxt {
+    top: 36%;
+    position: relative;
+    left: 23.5%;
+    font-size: 600%;
+    color: #729d6b;
+    font-family:swirl;
+    text-align: center;
+    max-width: 50%;
+    max-height: 100px;
+    
+}
+
+.certificateG #awarderNameTxt {
+    font-family: sans-serif;
+    color: black;
+    top: 44%;
+    position: relative;
+    font-size: 150%;
+    left: 21%;
+    max-width: 15%;
+    text-align: center;
+}
+
+.certificateG #dateTxt {
+    font-family: sans-serif;
+    color: black;
+    top: 38.9%;
+    position: relative;
+    left: 36.4%;
+    font-size: 150%;
+    text-align: center;
+
+    max-width: 10%;
+}
 
 /* The Restless Certificate */
  .certificateR {
